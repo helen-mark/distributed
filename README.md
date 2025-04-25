@@ -1,6 +1,6 @@
 My local machine (superlink) is Linux mint with python 3.12.3  and docker:
 
-(federated_learning_venv) elena@elena-desktop ~/AT/flower/src/docker/distributed $ docker version
+(federated_learning_venv) elena@elena-desktop /AT/flower/src/docker/distributed $ docker version
 Client:
  Version:           26.1.3
  API version:       1.45
@@ -28,18 +28,18 @@ Server:
  docker-init:
   Version:          0.19.0
   GitCommit:        
-(federated_learning_venv) elena@elena-desktop ~/AT/flower/src/docker/distributed $ docker-compose version
+(federated_learning_venv) elena@elena-desktop /AT/flower/src/docker/distributed $ docker-compose version
 docker-compose version 1.29.2, build unknown
 docker-py version: 5.0.3
 CPython version: 3.12.3
 OpenSSL version: OpenSSL 3.0.13 30 Jan 2024
-(federated_learning_venv) elena@elena-desktop ~/AT/flower/src/docker/distributed $ 
+(federated_learning_venv) elena@elena-desktop /AT/flower/src/docker/distributed $ 
 
 
 
 My remote machine (supernode) is actually my laptop, also linux mint, python 2.7.18, docker:
 
-elena@elena-laptop:~/distributed$ docker version
+elena@elena-laptop:/distributed$ docker version
 Client: Docker Engine - Community
  Version:           28.0.4
  API version:       1.48
@@ -68,7 +68,7 @@ Server: Docker Engine - Community
   Version:          0.19.0
   GitCommit:        de40ad0
   
-elena@elena-laptop:~/distributed$ docker-compose version
+elena@elena-laptop:/distributed$ docker-compose version
 docker-compose version 1.25.0, build unknown
 docker-py version: 4.1.0
 CPython version: 3.9.2
